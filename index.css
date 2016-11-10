@@ -89,13 +89,7 @@ li.soft_skills{
   font-size: 15px;
 }
 
-
-
-/************************************************
-************ M E D I A _ Q U E R I E S ***********
-************************************************/
-
-
+/***** M E D I A _ Q U E R I E S ******/
 
 
 @media (max-width:425px) {
@@ -147,10 +141,3 @@ li.soft_skills{
 
 }
 
-@media (min-width:426px) and (max-width:768px) {
-
-}​
-
-@media (min-width:768px) and (max-width:1440px) {
-
-}​
