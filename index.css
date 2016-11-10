@@ -1,0 +1,156 @@
+html{background-color: #000; overflow-x:inital;}
+
+.background-wrap{
+  z-index:-1000;
+  width:100%;
+  height:680px;
+  overflow:hidden;
+  top:0;
+  left:0;
+}
+#video-bg-elem{
+  min-width: 100%;
+  -webkit-filter:blur(10px);
+  -ms-filter: blur(10px);
+  -o-filter: blur(10px);
+  filter:blur(10px);
+  opacity: 0.2;
+}
+
+.navbar{
+  display:block;
+  background-color: transparent;
+  margin-top:15px;
+  margin-bottom: 0px;
+  font-size: 11px;
+  letter-spacing: 2px;
+  position:absolute;
+  z-index: 1000;
+
+}
+
+p#intro{
+  font-family:'Bungee Hairline';
+  font-size:30px;
+  font-style: normal;
+  font-size: 25pt;
+  color: #FFF;
+  text-align: center;
+  margin-bottom: 100px;
+  position: absolute;
+  display:block;
+  margin-top: 300px;
+  margin-left: 450px;
+
+}
+
+/*-----*/
+
+
+  p.sub_title{
+
+  /*font-family: 'Andika';
+  font-style: normal;*/
+  font-family:'Bungee', Arial, sans-serif;
+  font-size:30px;
+  font-style: normal;
+	font-size: 60px;
+	color: #FFF;
+	margin-top: 20px;
+  margin-left: 20px;
+  opacity: 0.8;
+  border-bottom: 1px solid #ff00ff;
+}
+  p.text {
+	font-family: 'Andika';
+  font-style: normal;
+	font-size: 15px;
+	color: #FFF;
+	line-height: 30px;
+	margin-left: 20px;
+}
+
+.info{
+  text-align: center;
+}
+p.note{color: #FFF;}
+.soft_skills{color: #FFF;}
+.tech_skills{  color: #FFF;}
+
+p.links{
+  margin-left: 20px;
+  color: #4EFF08;
+  text-align: center;
+}
+li.tech_skills{
+font-size: 15px;
+}
+li.soft_skills{
+  font-size: 15px;
+}
+
+
+
+/************************************************
+************ M E D I A _ Q U E R I E S ***********
+************************************************/
+
+
+
+
+@media (max-width:425px) {
+
+
+  html{ background-color:#000; }
+  div.background-wrap{ display: none; }​
+
+  div.navbar1{
+    padding-left: 0px;
+    position: relative;
+    text-align: center;
+    z-index: auto;
+    margin-bottom: auto;
+  }
+
+
+  p#intro{
+    font-size: 40px;
+    margin-top: 0px;
+    margin-left:0px;
+    margin-bottom: 0px;
+    position: inherit;
+    z-index: auto;
+    text-align: left;
+    width:100%;
+  }
+
+  p.sub_title{
+    margin-top: 60px;
+    font-size: 40px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+  }
+
+  p.text {
+    margin-left: 0px;
+    font-size: 15px;
+    line-height: 20px;
+    width: 310px;
+  }
+
+  li.tech_skills{
+  font-size: 15px;
+  }
+  li.soft_skills{
+    font-size: 15px;
+  }
+
+}
+
+@media (min-width:426px) and (max-width:768px) {
+
+}​
+
+@media (min-width:768px) and (max-width:1440px) {
+
+}​
